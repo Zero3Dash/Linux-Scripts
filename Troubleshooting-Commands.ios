@@ -1,5 +1,6 @@
-Linux Ping Sweep (x.x.x.x/24 subnet)
-	for i in {1..254} ;do (ping 192.168.100.$i -c 4 -w 10 >/dev/null && echo "192.168.100.$i" &) ;done
-
-Linus Ping Sweep using fping
-	fping -a -g 192.168.100.0/22
+!--Linux Ping Sweep (x.x.x.x/24 subnet)
+for i in {1..254} ;do (ping 192.168.100.$i -c 4 -w 10 >/dev/null && echo "192.168.100.$i" &) ;done
+!
+!--Linux Ping Sweep using fping
+fping -a -g 192.168.100.0/22
+!
