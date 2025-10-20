@@ -1,3 +1,4 @@
+(Use IPv4 Only, no IPv6 support)
 sudo curl https://download.argon40.com/argon1.sh | sudo bash
 argonone-config
 
